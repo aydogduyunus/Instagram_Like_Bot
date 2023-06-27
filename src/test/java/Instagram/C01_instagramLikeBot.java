@@ -32,7 +32,7 @@ public class C01_instagramLikeBot extends TestBase {
         //1)kullanici girisi yaptik
         driver.get("https://instagram.com");
         driver.findElement(By.xpath("//input[@name='username']")).
-                sendKeys("yazilimbot", Keys.TAB, "gecetimi.123", Keys.TAB, Keys.TAB, Keys.ENTER);
+                sendKeys("enter your own account :) ", Keys.TAB, "enter your own account :) ", Keys.TAB, Keys.TAB, Keys.ENTER);
 
 
 
