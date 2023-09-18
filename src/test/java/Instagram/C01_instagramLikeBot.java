@@ -62,7 +62,7 @@ public class C01_instagramLikeBot extends TestBase {
         aramaButonu.click();
 
         //arama metin kutucuguna aradıgımız kisiye gir
-        driver.findElement(By.cssSelector("[aria-label='Arama Girdisi']")).sendKeys("ramozy53");
+        driver.findElement(By.cssSelector("[aria-label='Arama Girdisi']")).sendKeys("Please enter a user");
 
         bekle(2);
 
